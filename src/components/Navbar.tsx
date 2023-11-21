@@ -17,10 +17,10 @@ const Navbar = () => {
           About Us
         </Link>
         <Link href="/" className="nav-link">
-          About Us
+          Products
         </Link>
         <Link href="/" className="nav-link">
-          About Us
+          Contact
         </Link>
       </div>
     </div>

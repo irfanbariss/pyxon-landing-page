@@ -35,4 +35,5 @@
   color: var(--primary-color);
   background-color: var(--secondary-color);
   border-radius: 1rem;
+  transition: 0.5s ease-in;
 }

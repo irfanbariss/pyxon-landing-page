@@ -9,23 +9,25 @@
   background-color: var(--primary-color);
   color: var(--secondary-color);
   height: 65vh;
-  padding: 5rem 2rem;
+  padding: 2rem 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .heroText {
-  text-align: center;
+  /* text-align: center; */
   text-transform: uppercase;
-  width: 50%;
+  width: 60%;
   font-weight: 700;
   text-shadow: 2px 5px 10px var(--alternate-color);
   font-size: 82px;
-  color: var(--secondary-color);
+  /* color: var(--secondary-color); */
+  margin-left: 2rem;
 }
 
 .formContainer {
-  margin: 0 10rem;
+  margin: 0 5rem;
+  width: 20%;
 }
 .form {
   display: flex;
@@ -50,12 +52,14 @@
   border: none;
   background-color: var(--alternate-color);
   padding: 0.5rem;
+  width: 100%;
+  resize: none;
 }
 
 .form button {
   width: 100%;
   padding: 1rem;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   cursor: pointer;
   background-color: var(--secondary-color);
   border-radius: 1rem;
