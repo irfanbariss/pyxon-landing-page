@@ -1,13 +1,12 @@
 .main {
   min-height: 100vh;
   background-color: #fff;
-  color: #000;
   font-family: Poppins, sans-serif;
 }
 
 .hero {
   background-color: var(--primary-color);
-  color: var(--secondary-color);
+  /* color: var(--secondary-color); */
   height: 65vh;
   padding: 2rem 2rem;
   display: flex;
@@ -19,10 +18,23 @@
   text-transform: uppercase;
   width: 60%;
   font-weight: 700;
-  text-shadow: 2px 5px 10px var(--alternate-color);
+  /* text-shadow: 2px 5px 10px var(--alternate-color); */
   font-size: 82px;
   /* color: var(--secondary-color); */
   margin-left: 2rem;
+}
+
+.gradientText {
+  background-image: linear-gradient(
+    45deg,
+    var(--alternate-color),
+    var(--secondary-color),
+    var(--light-color)
+  );
+  -webkit-background-clip: text; /* Webkit için */
+  background-clip: text;
+  color: transparent;
+  display: inline-block; /* Gerekli olabilir */
 }
 
 .formContainer {

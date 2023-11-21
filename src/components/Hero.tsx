@@ -6,7 +6,9 @@ const Hero = () => {
     <>
       <div className={styles.hero}>
         <div className={styles.heroText}>
-          <p>We create software solutions for you</p>
+          <p className={styles.gradientText}>
+            We create software solutions for you
+          </p>
         </div>
 
         <Form />

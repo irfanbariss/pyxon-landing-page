@@ -4,7 +4,7 @@ const Form = () => {
   return (
     <>
       <div className={styles.formContainer}>
-        <h2>Let's Talk</h2>
+        <h2 className={styles.gradientText}>Let's Talk</h2>
         <form className={styles.form}>
           <input type="text" name="" id="" placeholder="Name" required />
           <input type="email" name="" id="" placeholder="Email" required />
