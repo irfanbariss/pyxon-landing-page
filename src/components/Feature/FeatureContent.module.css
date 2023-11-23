@@ -1,0 +1,25 @@
+.title {
+  color: var(--secondary-color);
+  font-size: 1.7em;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.text {
+  font-size: 1.2em;
+  width: 60%;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Responsive Styles for Text */
+@media screen and (max-width: 768px) {
+  .text {
+    width: 100%; /* Adjust width for smaller screens */
+  }
+}

@@ -1,0 +1,24 @@
+.btn {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  transition: 0.2s;
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    padding: 1rem;
+  }
+}

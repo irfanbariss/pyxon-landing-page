@@ -1,9 +1,10 @@
+import { Container } from '@mantine/core'
 import styles from '../app/page.module.css'
 import Form from './Form'
 
 const Hero = () => {
   return (
-    <>
+    <Container fluid className={styles.main}>
       <div className={styles.hero}>
         <div className={styles.heroText}>
           <p className={styles.gradientText}>
@@ -20,7 +21,7 @@ const Hero = () => {
           d="M0,160L80,186.7C160,213,320,267,480,272C640,277,800,235,960,213.3C1120,192,1280,192,1360,192L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
         ></path>
       </svg>
-    </>
+    </Container>
   )
 }
 export default Hero

@@ -1,0 +1,38 @@
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.section {
+  margin: auto;
+  text-align: center;
+  padding: 1rem auto;
+}
+
+.text {
+  font-size: 20px;
+}
+
+/* Add these styles at the end of your existing CSS file */
+
+/* Responsive Styles for Container */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Responsive Styles for Section */
+@media screen and (max-width: 768px) {
+  .section {
+    padding: 1rem;
+    width: 100%;
+  }
+}
+
+/* Responsive Styles for Text */
+@media screen and (max-width: 768px) {
+  .text {
+    font-size: 16px;
+  }
+}

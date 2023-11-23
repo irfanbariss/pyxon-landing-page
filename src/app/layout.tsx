@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
 
 import './globals.css'
+import '../app/page.module.css'
 
 import '@mantine/core/styles.css'
 
-import { MantineProvider, ColorSchemeScript } from '@mantine/core'
+import { MantineProvider, ColorSchemeScript, Paper } from '@mantine/core'
 
 export const metadata: Metadata = {
   title: 'Pyxon Solutions',
@@ -19,10 +20,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <ColorSchemeScript />
+        <ColorSchemeScript defaultColorScheme="light" />
       </head>
       <body>
-        <MantineProvider>{children}</MantineProvider>
+        <MantineProvider defaultColorScheme="light">
+          <Paper p="0" radius={0} style={{ minHeight: '100vh' }}>
+            {children}
+          </Paper>
+        </MantineProvider>
       </body>
     </html>
   )

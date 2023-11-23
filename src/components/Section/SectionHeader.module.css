@@ -1,0 +1,25 @@
+.title {
+  font-size: 3rem;
+  color: var(--alternate-color);
+  text-align: center;
+}
+.text {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Add these styles at the end of your existing CSS file */
+
+/* Responsive Styles for Title */
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+
+/* Responsive Styles for Text */
+@media screen and (max-width: 768px) {
+  .text {
+    font-size: 16px;
+  }
+}

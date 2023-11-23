@@ -1,0 +1,14 @@
+.grid {
+  display: flex;
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    flex-direction: column; /* Adjust flex direction for smaller screens */
+    align-items: center; /* Center items for smaller screens */
+    padding: 0.5rem; /* Adjust padding for smaller screens */
+  }
+}

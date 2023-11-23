@@ -1,0 +1,12 @@
+.image {
+  height: 250px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    height: 150px; /* Adjust height for smaller screens */
+    margin-bottom: 0.5rem; /* Adjust margin for smaller screens */
+  }
+}

@@ -1,0 +1,15 @@
+.sectionContent {
+  width: 100%;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .sectionContent {
+    padding: 2rem;
+  }
+}
